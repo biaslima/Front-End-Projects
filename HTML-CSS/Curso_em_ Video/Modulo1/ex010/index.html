@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o site do curso: <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-10-aula-1-links-e-ancoras-em-html5/" target="_blank" rel="external">"Curso em Vídeo"</a></p>
+    <p>Canal gratuito do <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY">Youtube</a></p>
+    <p>Utilizando os parâmetros "target='_blak"" e "rel="external"" a página linkada abre em outra aba</p> <!--Na verdade só precisa do target="_blank"-->
+
+    <h1>Usando links internos</h1>
+    <p>Esta á a primeira página do site, mas vc tabmém pode acessar a <a href="pag002.html" target="_blank" rel="next">segunda página</a></p>
+
+    <!--Caso vc link para um patrocínio mas não quer que  conteúdo seja necessariamente ligado a ele, utilize o 'rel="nofollow"'-->
+    <!--Caso você não queira que a página abra numa nova guia, utilize o 'target="_self"'-->
+    <!--Para voltar para uma página numa pasta anterior, utilize ".."-->
+
+    <h1>Hiperlinks para Download</h1>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="pdf1.pdf" type="application/pdf">Livro-</a> PDF 1</li>
+        <!--Para fazer o download imediato, utilize os parametros 'download="nomedoarquivo.formato" e 'type="application/formatodoarquivo"'-->
+        <li><a href="livro/10 - Ligações em toda parte.zip">Zip</a>- PDF 1</li>
+    </ul>
+</body>
+</html>

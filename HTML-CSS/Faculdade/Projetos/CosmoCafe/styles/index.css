@@ -1,0 +1,44 @@
+body {
+  background-image: url(../assets/coffee_beans_floating_in_space.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: "MuseoModerno", sans-serif;
+}
+
+#page-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.botao {
+  border: none;
+  border-radius: 45px;
+  padding: 20px 30px;
+  background-color: #007482;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 105px;
+  margin-left: 100px;
+}
+
+#botoes {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.botao:hover {
+  background-color: #0daabb;
+  font-size: 18px;
+}
+
+body img {
+  border-top: 7%;
+}
